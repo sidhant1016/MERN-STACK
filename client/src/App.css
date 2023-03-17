@@ -1,0 +1,301 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 2px 2px #ccc;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+.signup {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.signup-content {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.signup-form {
+  margin-top: 30px;
+}
+
+.form-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+  padding: 10px 25px;
+  width: 100%;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #6cb2eb;
+}
+
+.zmdi {
+  font-size: 18px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.zmdi-sign-in {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+button {
+  background-color: #6cb2eb;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 12px 30px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a9cd6;
+}
+.form-button {
+  text-align: center;
+}
+
+.form-submit {
+  background-color: #6cb2eb;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+  background-color: #5a9cd6;
+}
+
+.contact {
+  background-color: #f5f5f5;
+  padding: 50px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  height: 150px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}
+
+.home-page {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-div {
+  text-align: center;
+  color: rgb(90, 94, 96);
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+span {
+  font-size: 1rem;
+}
+.container {
+  background-color: #f8f8f8;
+  padding: 50px;
+}
+
+.emp-profile {
+  border: 1px solid #ccc;
+  padding: 30px;
+}
+
+.profile-head {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+}
+
+.profile-work a:hover {
+  color: #fff;
+  background-color: #007bff;
+}
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+.notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.notfound-404 {
+  height: 200px;
+  position: relative;
+  z-index: -1;
+}
+
+.notfound-404 h1 {
+  font-size: 236px;
+  font-weight: 200;
+  margin: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: -40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.notfound h2 {
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.btn-back-to-home {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #55bed0;
+  color: #e30d39;
+  border: 2px solid #e30d39;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.btn-back-to-home:hover {
+  background-color: #3d10a8;
+  color: hsl(196, 100%, 98%);
+}
+
+
+
+
